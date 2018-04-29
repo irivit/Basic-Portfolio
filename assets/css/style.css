@@ -1,53 +1,153 @@
-html{
-    height: 100%;
-}
 
 body{
-    background: #f1f1f1;
+    background:#4aaaa5;
     width: 960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    min-height:100%; 
-    position:relative; 
-    padding-bottom:[footer-height] 
 }
+
 
 .headers{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-right: 50px;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 960px;
+    border-color: #cccccc;
 }
 
-menu{
-    font-size: 10px;
+.Name{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20px;
+    margin-right: 150px;
+    float: left;
+    color: #777777;
+}
+
+.menu{
+    font-size: 20px;
+    float: left;
+    padding: 30px;
+    margin-left: 200px;
+}
+
+#index{
+    float: left;
+    margin-right: 15px;
+}
+
+#contact{
+    float: left;
+    margin-right: 15px;
+}
+
+#portfolio{
+    float: left;
+    margin-right: 15px;
 }
 
 .container{
     background-color: #ffffff;
     border-color: #dddddd;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 960px;
+    border-color: #dddddd;
 }
-
+section{
+    clear: both;
+    width: 960px;
+    margin-top:150px;
+}
 
 a{
-    color: floralwhite;
+    color: #777777;
 }
 
-.top{
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+img{
+    margin: 15px 15px 15px 15px;
+    width: 230px;
+    height: 300px;
+    float: left;
+
 }
 
-.footer { 
-    position: absolute; 
-    left: 0 ; right: 0; bottom: 0; 
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-    color:white;
-    height:[footer-height] 
-    
-}
+#aboutme{
+    clear: both;
 
+}
 .formatform{
-    margin-top: 50px;
+    margin-top: 150px;
 }
+
+.footer{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    width: 960px;
+    margin-top: 10px;
+    text-align: center;
+    color: #777777;
+}
+
+.firstp{
+    float: left;
+    padding-top: 95px;
+}
+#secondp{
+    clear: both;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+
+label{
+    font-size: 25px;
+    color: #777777;
+}
+
+input{
+    margin-left: 15px;
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+textarea{
+    margin-left: 15px;
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 15px;
+   
+}
+
+p{
+    padding-top: 15px;
+    color: #777777;
+}
+
+button{
+    margin-left: 15px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 15px;
+
+}
+.proj{
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.hover-outline:hover {
+    outline: 5px solid gray;
+    outline-offset: 10px;
+  }
+
+  .background-switch:hover {
+    background-color: lightblue;
+    color: white;
+    
+  }
+
+  a:hover {
+    color: #4aaaa5;
+  }

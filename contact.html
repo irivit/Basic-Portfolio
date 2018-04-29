@@ -5,56 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="icon" href="assets/images/ruvicon.png">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-
-        
-        <div class="row bg-info  text-white top">
-                <div class="col-sm-6">
-                    <h1 class="">Irina Machado</h1>
+    <div class="container">
+        <div class="box-set headers">
+            <div class="Name">
+                    <h1>Irina Machado</h1>
                 </div>
-                <div class="col-sm-6">
+                <div class="menu">
                     <!--This is for the navigation within my page-->
-                    <ul class="nav justify-content-end headers">
-                        <li class="nav-item">
-                            <a class="nav-link active a" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link a" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link a" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+        
+                    <a id= "index"  href="index.html">About</a>
+        
+                    <a id= "portfolio"  href="portfolio.html">Portfolio</a>
+        
+                    <a id= "contact"  href="contact.html">Contact</a>
+            </div>
         </div>
 
-        <div class="formatform">
-            <form class="top">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+        <section>
+            <form class="formatform">
+                <div >
+                    <label>Name:</label>
+                    <br>
+                    <br>
+                    <input id="putname" type="text" placeholder="John Doe">
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">                   
+                <div >
+                    <label>Email address:</label>
+                    <br>
+                    <br>
+                    <input type="email"  placeholder="name@example.com">                   
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div >
+                    <label>Message:</label>
+                    <br>
+                    <br>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <br>
+                <button type="submit" class="background-switch">Submit</button>
             </form>
-        </div>
-
-        <footer class="bg-info footer">
-
-            <p>Irina Machado</p>
-
+        
+        </section>
+        
+        <footer class="footer box-set">
+            <h6>Copyright</h6>
         </footer>
     </div>    
 </body>
